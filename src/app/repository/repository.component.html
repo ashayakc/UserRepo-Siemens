@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="card bg-primary" *ngFor="let item of repos">
+    <div class="card bg-primary">
+      Name: <a href="{{item.html_url}}">{{item.name}} </a>
+      Size: {{item.size}}
+      Language: {{item.language}}
+      Stars: {{item.stars}}
+      Watchers: {{item.watchers}}
+    </div>
+  </div>
+</div>

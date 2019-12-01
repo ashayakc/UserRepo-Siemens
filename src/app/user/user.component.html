@@ -1,0 +1,2 @@
+<input type="text" value="{{text}}" (keyup)="OnChange($event)">
+<input type="button" value="Submit" [disabled]="text.length === 0" (click)="onClick($event)">
